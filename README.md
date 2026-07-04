@@ -1,5 +1,5 @@
 ﻿# Final_Project_Data_Analytics
-# 🚗 ISTAT Traffic Analysis — Progetto Finale (Data Analytics)
+# ISTAT Traffic Analysis — Progetto Finale (Data Analytics)
 Questo è il mio progetto finale del Master in Data Analytics.  
 L’obiettivo è analizzare i dati ISTAT sugli incidenti stradali nei comuni italiani, integrarli con dati territoriali (popolazione e superficie) e costruire:
 - un **dataset arricchito**
@@ -9,7 +9,7 @@ L’obiettivo è analizzare i dati ISTAT sugli incidenti stradali nei comuni ita
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 Final_Project_Data_Analytics/
 │
@@ -25,16 +25,16 @@ Final_Project_Data_Analytics/
 │   └── 04_ml_clustering_regression.ipynb
 │
 ├── powerbi/
-│   └── dashboard.pbix
+│   └── Progetto Finale.pbix
 │
 ├── slides/
-│   └── capstone_presentation.pdf
+│   └── PRESENTAZIONE.docx
 │
 └── README.md
 
 ---
 
-## 🎯 Obiettivo del progetto
+## Obiettivo del progetto
 
 La mia azienda opera nel settore della **gestione del traffico e prevenzione del rischio**.  
 Serve identificare **i comuni italiani con il più alto tasso di incidenti**, valutando:
@@ -46,7 +46,7 @@ Serve identificare **i comuni italiani con il più alto tasso di incidenti**, va
   
 ---
 
-## 📊 Dataset utilizzati
+## Dataset utilizzati
 
 ### **1. ISTAT — Incidenti stradali**
 Endpoint API:  
@@ -73,28 +73,7 @@ Il file viene scaricato una volta e salvato in `/data/situas_raw.csv`.
 
 ---
 
-## 🔍 Descrizione dei dati
-
-### 1. Dati ISTAT (incidenti)
-Scaricati tramite API:  
-`https://esploradati.istat.it/SDMXWS/rest/data/41_983`
-
-Contengono:
-- codice ISTAT del comune  
-- anno  
-- tipo di dato (incidenti, feriti, ecc.)  
-- valore osservato  
-
-### 2. Dati SITUAS (popolazione e superficie)
-Scaricati dal sito SITUAS.  
-Contengono:
-- popolazione residente  
-- superficie in km²  
-- codici territoriali  
-
----
-
-## 🔧 Fasi del progetto
+## Fasi del progetto
 
 1. **Raccolta dati**  
    - download automatico dei dati ISTAT  
@@ -118,30 +97,19 @@ Contengono:
 5. **Analisi statistica / ML**  
    - clustering dei comuni  
    - regressione semplice  
-   - eventuali test statistici  
 
-6. **Dashboard Power BI**  
-   - mappa  
+6. **Dashboard Power BI**   
    - KPI  
-   - ranking comuni  
+   - Trend Storico
+   - Dettaglio Comuni per anno
+   - Conclusioni 
 
 7. **Presentazione finale**  
-   - spiegazione del lavoro svolto  
-   - risultati ottenuti
-   - 
----
-
-## ▶️ Come eseguire il progetto
-
-1. Clonare il repository  
-2. Installare le dipendenze Python  
-3. Eseguire i notebook in ordine numerico  
-4. Aprire la dashboard Power BI  
-5. Consultare le slide finali  
+   - spiegazione del lavoro  
 
 ---
 
-## 👤 Autore
+## Autore
 
 **Simone Certomà**  
 Master in Data Analytics — Boolean Careers  
